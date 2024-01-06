@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q/A</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="qa">
+    <h3>1. Discuss the scope of var, let, and const?</h3>
+    <li>
+        <ul>
+        var:
+<ol>
+    Variables declared with var are function-scoped, meaning they are only accessible within the function where they are declared.</ol>
+<ol>If a variable is declared with var outside any function, it becomes a global variable, accessible throughout the entire program.</ol>
+<ol>var variables are hoisted to the top of their scope during the compilation phase, so One can use them before they are declared (but their value will be undefined).</ol>
+        </ul>
+        <ul>
+            let:
+<ol>
+  
+Variables declared with let are block-scoped, meaning they are only accessible within the block (enclosed by curly braces) where they are defined.</ol>
+<ol>Unlike var, let variables are not hoisted to the top of their scope, and they throw a ReferenceError if accessed before declaration.</ol>
+
+        </ul>
+        <ul>
+        const:
+
+    
+  
+   
+
+<ol>  const is also block-scoped like let.</ol>
+<ol> The key difference is that once a variable is declared with const, its value cannot be reassigned.</ol>
+<ol>  However, it's important to note that for objects and arrays declared with const, the properties or elements of the object or array can still be modified.</ol>
+        </ul>
+
+
+
+
+
+
+
+
+    </li>
+
+
+    <h3>2. Tell us the use cases of null and undefined?</h3>
+    <li>
+        <ul>
+           (i) undefined:
+<ol>
+    A variable is undefined when it has been declared but has not been assigned a value.</ol>
+    Use cases:
+
+<ol>Default values for function parameters.</ol>
+<ol>To check if a variable has been assigned a value.</ol>
+<ol>When an object property or array element may or may not exist, and you want to check its existence.</ol>
+        </ul>
+
+        <ul>
+            null:
+<ol>
+  
+    null is an assignment value that represents the intentional absence of any object value.</ol>
+    Use cases:
+<ol>Explicitly indicating the absence of a value</ol>
+<ol>Resetting or clearing a variable</ol>
+<ol>As a placeholder for an object property or variable whose value will be assigned later</ol>
+</ul>  
+<h3>3.What do you mean by REST API?</h3>
+<ul>
+    
+REST API, or Representational State Transfer Application Programming Interface, is an architectural style for designing networked applications. It relies on a stateless communication between clients and servers, typically using HTTP, and follows principles such as a uniform interface, statelessness, and resource-based interactions. REST APIs enable systems to communicate over the internet, allowing the exchange of data in a standardized and scalable way.
+
+</ul>
+
+
+
+    </li>
+</div>
+</body>
+</html>
